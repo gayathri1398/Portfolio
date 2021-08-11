@@ -1,11 +1,9 @@
-import HomeComponent from "./components/Home/Home.component";
-
-
+import NavbarComponent from "./components/Home/Navbar.component";
 
 
 function App() {
   return (
-    <HomeComponent/>
+    <NavbarComponent/>
    
   );
 }
