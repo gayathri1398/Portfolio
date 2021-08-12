@@ -5,7 +5,7 @@ import MyDropdown from './Menu.component';
 const Navsm=()=>{
    return(
    <>
-     <div className="flex gap-0 items-center justify-around border-2 bg-port-300">
+     <div className="flex gap-0 items-center justify-around border-2 bg-port-300 h-12 md:h-16">
        <div>
           <h2 className="font-bold text-2xl italic md:text-3xl">Gayathri</h2>
           </div>
@@ -24,7 +24,7 @@ const Navsm=()=>{
  const Navlg=()=>{
     return(
     <>
-    <div className="flex items-center gap-6 justify-around border-2 bg-port-300">
+    <div className="flex items-center gap-6 justify-around border-2 bg-port-300 h-20">
        <div>
           <h2 className="font-bold italic text-3xl">Gayathri</h2>
           </div>
