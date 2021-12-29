@@ -7,7 +7,7 @@ const Navsm=()=>{
    <>
      <div className="flex gap-0 items-center justify-around border-2 bg-port-300 h-12 md:h-16">
        <div>
-          <h2 className="font-bold text-2xl italic md:text-3xl">Gayathri</h2>
+          <h2 className="font-bold text-2xl italic md:text-3xl">Portfolio</h2>
           </div>
           <div className="flex h-8 gap-0 font-normal text-xl cursor-pointer md:text-2xl">
           <p>  <MyDropdown /> </p>
@@ -26,7 +26,7 @@ const Navsm=()=>{
     <>
     <div className="flex items-center gap-6 justify-around border-2 bg-port-300 h-20">
        <div>
-          <h2 className="font-bold italic text-3xl">Gayathri</h2>
+          <h2 className="font-bold italic text-3xl">Portfolio</h2>
           </div>
           <div className="flex h-8 gap-20 font-semibold text-2xl cursor-pointer">
            <p>Home</p>
