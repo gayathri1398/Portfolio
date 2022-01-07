@@ -6,7 +6,7 @@ const Skills = () => {
         <div>
         <h1 className="h-12 text-2xl italic font-semibold bg-port-300 pl-4 pt-2 md:text-3xl md:pt-4 md:h-16 lg:h-20 lg:text-5xl">Skills</h1>
         </div>
-      <div className=" px-6 flex gap-12 justify-evenly text-center flex-wrap my-9 md:justify-between md:gap-28 lg:gap-48 lg:px-28">
+      <div className="bg-white shadow-md mx-16 px-6 flex gap-12 justify-evenly text-center flex-wrap my-9 md:justify-between md:gap-28 lg:gap-48 lg:px-28">
       <div className="w-20 h-20 md:w-24 h-24 lg:w-32 h-32 mb-2">
             <img src="https://andrewborstein.com/assets/img/html5.png" alt=" "  />
             <h2 className="mt-2 font-bold italic lg:text-xl">HTML</h2>
