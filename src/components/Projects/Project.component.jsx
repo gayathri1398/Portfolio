@@ -3,8 +3,9 @@ import Slider from 'react-slick';
 
 
 
-// pages
+// components
 import ProjectCard from '../ProjectCard';
+import { PrevArrow,NextArrow } from '../Carousel';
 
 
 const project=[
@@ -32,12 +33,14 @@ const project=[
 
 const Project = (props) => {
     var settings={
-        dots: true,
-        infinite: false,
+        dots: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
+        prevArrow:<PrevArrow/>,
+        nextArrow:<NextArrow/>,
         responsive: [
           {
             breakpoint: 1024,
@@ -69,11 +72,9 @@ const Project = (props) => {
         <div>
         <h1 className="h-12 text-2xl italic font-semibold bg-port-300 pl-4 pt-2 md:text-3xl md:pt-4 md:h-16 lg:h-20 lg:text-5xl">Projects</h1>
      
-      <div className='border-2 border-black px-12'>
+      <div className='px-12 py-8'>
       <Slider {...settings} >
         {project.map((proj)=> <ProjectCard {...proj} /> )}
-      
-       
         </Slider>
       </div>
         </div>
