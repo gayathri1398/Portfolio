@@ -9,7 +9,7 @@ const Home=()=>{
       <div className="w-full h-full">
           <img src="https://images.unsplash.com/photo-1543270317-5040b5726070?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fGElMjBnaXJsJTIwd2l0aCUyMGxhcHRvcHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" 
           alt="profilepic"
-          className="w-screen h-2/3 object-cover md:h-screen"/>
+          className="w-screen h-2/3 object-cover md:h-screen" />
           <div className="mx-1/2 absolute w-48 h-48 rounded-full md:w-60 md:h-60 md:left-24 lg:w-96 lg:h-96 top-32 lg:left-40">
               <img src={profile}
                alt="profilepic"

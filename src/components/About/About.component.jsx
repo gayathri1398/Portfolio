@@ -4,8 +4,8 @@ import React from 'react'
     return (
         <div>
         <h1 className="h-12 text-2xl italic font-semibold bg-port-300 pl-4 pt-2 md:text-3xl md:pt-4 md:h-16 lg:h-20 lg:text-5xl">About</h1>
-        <div className='w-full flex flex-col justify-center m-auto py-8 px-4 md:flex-row items-center text-center lg:px-60 '>
-            <div className='h-auto md:w-full'>
+        <div className='w-full flex flex-col m-auto py-8 px-4 md:flex-row items-center text-center lg:px-60 '>
+            <div className='h-auto md:w-full '>
                 <img src="https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aHVtYW4lMjBmYWNlfGVufDB8fDB8fA"
                  alt="aboutpic" 
                  className='w-full ' />
