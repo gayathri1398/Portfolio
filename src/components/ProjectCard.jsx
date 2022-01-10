@@ -12,12 +12,14 @@ const ProjectCard = (props) => {
                  className='w-full h-full object-cover' />
             </div>
             
-          
-            <h1 className='font-bold text-center'>{props.title}</h1>
-            <div className='relative mt-8'>
-                <p className='text-center'>This is a project with MERN stack.The frontend is build up using React and tailwindcss.The data is stored up in mongoDB and the backend is constructed using nodejs and express.The images are loaded in the amazon cloud using s3 buckst</p>
-           {/* <button className='absolute bottom-1 right-1 border border-black rounded-sm' >Click Me</button> */}
+          <div className='h-60'>
+          <h1 className='font-bold text-md text-gray-700 text-center mt-2'>{props.title}</h1>
+            <div className='mt-8 '>
+                <p className='text-center'>{props.description}</p>
+              <a href={props.link} className='font-bold text-md text-gray-800 underline'>Github Link</a>
            </div>
+          </div>
+           
         </div>
     )
 }

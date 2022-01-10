@@ -11,23 +11,33 @@ import { PrevArrow,NextArrow } from '../Carousel';
 const project=[
     {
         image:"https://zomatoimagecontainer.s3.ap-south-1.amazonaws.com/924d6db7dee0bb80abc31170174d0df6_o2_featured_v2.webp",
-        title:"Zomato Clone"
-    },
+        title:"Zomato Clone",
+        description:"This is a project done with MERN stack.The frontend is build up using React and tailwindcss.The data is stored up in mongoDB and the backend is constructed using nodejs and express.The images are loaded in the amazon cloud using s3 bucket",
+        link:"https://github.com/gayathri1398/zomato_clone"
+      },
     {
         image:"https://image.tmdb.org/t/p/original/o76ZDm8PS9791XiuieNB93UZcRV.jpg",
-        title:"BookMyShow Clone"
-    },
+        title:"BookMyShow Clone",
+        description:"The BookMyShow Project is focussed on the frontend.It is build up using React and tailwindcss.The TMDB Api is used to feed the movie details and posters.",
+        link:"https://github.com/gayathri1398/book-my-show"
+      },
     {
         image:"https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/n52FmCeu82Fu05AG7Bd-Yljm-W4umQlo1FV4u9rYzBQGv9qaBL1sGBLqjWZhjLwSNRE_6gd6BNA7XcQfpl-eTH74DFpAe2z74QinXZin0ro=/NDE6MzI6NjBUODEtMTAtMg==",
-        title:"spotify Clone"
+        title:"Spotify Clone",
+        description:"The Spotify Clone contains the login page and the single page application.It is build using React. The Spotify web api is used to feed the data.",
+        link:"https://github.com/gayathri1398/spotify_clone"
     },
     {
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwCV7EfiSdTbZeEDasH39etgsyIf3wY8ASw&usqp=CAU",
-        title:"amazon Clone"
-    },
+        title:"Amazon Clone(Working)",
+        description:"The Amazon Clone is build using react and tailwind css.Redux plays the major role in state management.Currently,Its on work",
+        link:"https://github.com/gayathri1398/Amazon-clone"
+      },
     {
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRtb0EUbB73Gkz_Xy4sY-8sM3YxHdACFVUlg&usqp=CAU",
-        title:"Book management"
+        title:"Book management",
+        description:"This project is build to learn the concepts of Rest Api.Api calls has been written to add,delete and update books,author. ",
+        link:"https://github.com/gayathri1398/bookapi"
     },
 ]
 
