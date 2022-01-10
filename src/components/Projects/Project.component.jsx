@@ -10,23 +10,23 @@ import { PrevArrow,NextArrow } from '../Carousel';
 
 const project=[
     {
-        image:"https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        image:"https://zomatoimagecontainer.s3.ap-south-1.amazonaws.com/924d6db7dee0bb80abc31170174d0df6_o2_featured_v2.webp",
         title:"Zomato Clone"
     },
     {
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc95sKK5m3zocU5EXL4xYa239jk3dnyG4v6hGd3yuGDvjw6HLZYAup2bnGEwTGEfb4J2w&usqp=CAU",
+        image:"https://image.tmdb.org/t/p/original/o76ZDm8PS9791XiuieNB93UZcRV.jpg",
         title:"BookMyShow Clone"
     },
     {
-        image:"https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        image:"https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/n52FmCeu82Fu05AG7Bd-Yljm-W4umQlo1FV4u9rYzBQGv9qaBL1sGBLqjWZhjLwSNRE_6gd6BNA7XcQfpl-eTH74DFpAe2z74QinXZin0ro=/NDE6MzI6NjBUODEtMTAtMg==",
         title:"spotify Clone"
     },
     {
-        image:"https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNwCV7EfiSdTbZeEDasH39etgsyIf3wY8ASw&usqp=CAU",
         title:"amazon Clone"
     },
     {
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc95sKK5m3zocU5EXL4xYa239jk3dnyG4v6hGd3yuGDvjw6HLZYAup2bnGEwTGEfb4J2w&usqp=CAU",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRtb0EUbB73Gkz_Xy4sY-8sM3YxHdACFVUlg&usqp=CAU",
         title:"Book management"
     },
 ]

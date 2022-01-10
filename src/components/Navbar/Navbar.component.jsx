@@ -1,4 +1,5 @@
 import React from 'react';
+// import "./navbar.css"
 
 import MyDropdown from './Menu.component';
 
@@ -29,11 +30,11 @@ const Navsm=()=>{
           <h2 className="font-bold italic text-3xl">Portfolio</h2>
           </div>
           <div className="flex h-8 gap-20 font-semibold text-2xl cursor-pointer">
-           <p>Home</p>
-           <p>About</p>
-           <p>Projects</p>
-           <p>Skills</p>
-           <p>Contact</p>
+           <a href="#home">Home</a>
+           <a href="">About</a>
+           <a href="">Projects</a>
+           <a href="">Skills</a>
+           <a href="">Contact</a>
          
           </div>
     </div>

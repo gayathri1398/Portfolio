@@ -11,6 +11,7 @@ const ProjectCard = (props) => {
                 alt={props.title}
                  className='w-full h-full object-cover' />
             </div>
+            
           
             <h1 className='font-bold text-center'>{props.title}</h1>
             <div className='relative mt-8'>
